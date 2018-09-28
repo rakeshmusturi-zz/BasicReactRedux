@@ -2900,6 +2900,9 @@ input[type="submit"].button {
   position: relative;
   text-align: left;
 }
+.control >input {
+  padding: 10%;
+}
 
 .control.has-icon .icon {
   color: #dbdbdb;

@@ -17,9 +17,9 @@ const App = () => {
           <RemoveCounter></RemoveCounter>
         </div>
         <br />
-        <ReactReduxExample />
-        <ReduxReader />
       </div>
+      <ReactReduxExample />
+      <ReduxReader />
       </div>
   )
 }
