@@ -7,12 +7,11 @@ class ReactReduxExample extends Component {
   constructor(props) {
     super(props);
   };
-  counterChange(e) {
+  counterChange = (e) => {
     e.preventDefault();
     this.props.dispatch(addCounter())
-  };
-  getInputValue(e) {
-    console.log(e.target.value);
+  }
+  getInputValue = (e) => {
     this.props.dispatch(inputData(e.target.value));
   }
    render() {

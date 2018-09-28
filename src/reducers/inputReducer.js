@@ -1,7 +1,6 @@
 import * as actionType from '../actions/ActionType';
 
-const inputReducer = (state = 0, action) => {
-    console.log(state, action);
+const inputReducer = (state = '', action) => {
   let newState;
   switch (action.type) {
     case actionType.GET_INPUT_DATA:
