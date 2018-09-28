@@ -4,6 +4,7 @@ import AddCounter from '../containers/AddCounter';
 import RemoveCounter from '../containers/RemoveCounter';
 import ReactReduxExample from '../containers/ReactReduxExample';
 import ReduxReader from '../containers/ReduxReader';
+import '../../custom.less';
 
 const App = () => {
   return (
