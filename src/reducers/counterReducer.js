@@ -1,7 +1,6 @@
 import * as actionType from '../actions/ActionType';
 
 const counterReducer = (state = 0, action) => {
-    console.log(state, action);
   let newState;
   switch (action.type) {
     case actionType.ADD_COUNTER:

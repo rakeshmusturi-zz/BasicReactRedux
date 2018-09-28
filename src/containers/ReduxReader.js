@@ -18,7 +18,6 @@ class ReduxReader extends Component {
   }
 }
 function mapStateToProps(state){
-  console.log(state);
   return {
     count: state.inputReducer,
   };
