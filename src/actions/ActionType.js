@@ -1,0 +1,3 @@
+export const ADD_COUNTER = 'ADD_COUNTER';
+export const REMOVE_COUNTER = 'REMOVE_COUNTER';
+export const GET_INPUT_DATA = 'GET_INPUT_DATA';
